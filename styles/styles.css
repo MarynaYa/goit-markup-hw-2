@@ -1,0 +1,144 @@
+/*основной цвет текста и телефона #757575*/
+/*основной tecxt #212121*/
+/*основной цвет фона secshen #E5E5E5*/
+/*цвет заголовка в герое h1 #FFFFFF*/
+/*цвет ссілок и кнопок (єл.адеса) #2196F3*/
+/*цвет фона футера и хыда #2F303A*/
+/* цвет серого фона #F5F4FA*/
+/**/
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --accent-text: #2196F3;
+    --herotitle: #FFFFFF;
+    --bgr-color: #FFFFFF;
+
+}
+/*body */
+body {
+    background-color: var(--bgr-color) ;
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+}
+.list {
+    list-style: none;
+}
+/*header*/
+.logo {
+    color: var(--accent-text);
+}
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.title {
+    color: var(--primary-text-color);
+}
+.site-nav a {
+    color: var(--primary-text-color);
+    font-family: inherit;   
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.site-nav a:hover, .site-nav a:focus {
+    color: var(--accent-text);
+}
+/*main*/
+     /*общее main*/
+.section-title {
+    color: var(--primary-text-color);    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;    
+}
+.text {
+    color: var(--text-color);
+}
+        /*Hero*/
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: var(--herotitle);
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-button {
+    background-color: var(--accent-text);
+    color: var(--herotitle);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.site-nav .link.current {
+    color: var(--accent-text);
+}
+.advantages-list .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;    
+    text-transform: uppercase;
+}
+.advantages-list .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}   
+.team {
+    background-color: #F5F4FA;
+}
+.team-list .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;    
+}
+.team-list .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;    
+}
+
+/*Footer*/
+.footer {
+    background-color: #2F303A;
+}
+.adress {
+    color: var(--herotitle);
+        font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.adress-text {
+    color: var(--herotitle);
+}
+.title-footer {
+    color: var(--herotitle);
+}
+/*PAGE PORTFOLIO*/
+   /*button*/
+.button {
+    background-color: #F5F4FA;
+    color: var(--primary-text-color);
+}
+.button:hover,
+.button:focus {
+    background-color: var(--accent-text);
+    color: var(--herotitle);
+}
