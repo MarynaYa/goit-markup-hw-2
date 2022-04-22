@@ -19,6 +19,7 @@ body {
     background-color: var(--bgr-color) ;
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
+    font-weight: 400;
     font-style: normal;
     letter-spacing: 0.03em;
 }
@@ -87,6 +88,8 @@ body {
 .site-nav .link.current {
     color: var(--accent-text);
 }
+       
+     /*Advantage*/
 .advantages-list .title {
     font-weight: 700;
     font-size: 14px;
@@ -94,10 +97,11 @@ body {
     text-transform: uppercase;
 }
 .advantages-list .text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }   
+
+     /*Team*/
 .team {
     background-color: #F5F4FA;
 }
@@ -108,7 +112,6 @@ body {
     text-align: center;    
 }
 .team-list .text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     text-align: center;    
@@ -120,10 +123,9 @@ body {
 }
 .adress {
     color: var(--herotitle);
-        font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
 }
 .adress-text {
     color: var(--herotitle);
@@ -132,13 +134,31 @@ body {
     color: var(--herotitle);
 }
 /*PAGE PORTFOLIO*/
-   /*button*/
+        /*Filter button*/
 .button {
     background-color: #F5F4FA;
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
 }
 .button:hover,
 .button:focus {
     background-color: var(--accent-text);
     color: var(--herotitle);
+}
+
+       /*Progect*/
+.bloc .title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.bloc .text {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.88;
 }
